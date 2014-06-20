@@ -13,6 +13,7 @@ Usage
     python dfe_to_easel.py path/to/animation.anim path/to/save/to.json -f framerate
 
 
+
 Example
 =======
 
@@ -127,3 +128,17 @@ barbarian.json::
         ],
         "images": ["barbarian.png"]
     }
+
+
+Known issues
+============
+
+* per-frame 'delay' is ignored as Easel only supports per-anim speed (Easel limitation).
+* all animations are set to speed 1 (Easel limitation).
+* only supports first sprite in animation (Easel limitation).
+
+
+Author
+======
+
+* `Adam Griffiths <https://github.com/adamlwgriffiths>`_
