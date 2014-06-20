@@ -3,13 +3,6 @@ import xml.etree.ElementTree as ET
 import json
 import os
 
-def get_sprite(sprites, name):
-    # find the sprite in our sprites list
-    # root dir is always /
-    full_path = ['/'] + name.split('/')
-    path = full_path[:-1]
-    spr_name = path[-1]
-
 def parse_sprites(_sprites):
     def walk_dir(node, path):
         # walk dirs
