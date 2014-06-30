@@ -1,5 +1,5 @@
 ===========================
-darkFactory Editor to Easel
+darkFunction Editor to Easel
 ===========================
 
 Converts `darkFunction Editor <http://darkfunction.com/editor/>`_ sprite sheet animations format to a json blob ready to use in `Easel <http://www.createjs.com/Docs/EaselJS/classes/SpriteSheet.html>`_.
